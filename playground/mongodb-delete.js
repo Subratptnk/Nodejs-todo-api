@@ -26,6 +26,7 @@ const {MongoClient,ObjectID}  = require('mongodb');
     //    console.log(result);
     //  })
 
+    //assignment
 
     db.collection('User').deleteMany({name:"Subrat"});
     db.collection('User').findOneAndDelete({_id: new ObjectID("5c2cd299df08b1786834d09a")}).then((result) => {
