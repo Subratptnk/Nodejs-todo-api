@@ -6,7 +6,7 @@
 
  var{mongoose} = require('./db/mongoose.js');
  var{Todo} = require('./models/Todo.js');
- var{Assignment} = require('./models/assignment.js');
+ var {User} = require('./models/user');
 
 
 
